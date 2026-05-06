@@ -8,7 +8,12 @@ load_dotenv()
 """
 Before submitting the assignment, describe here in a few sentences what you would have built next if you spent 2 more hours on this project:
 
-I would add a multi-turn mode where the child or parent can request a sequel, ask for the story to be shorter, or change the main character. I would also add parent controls for reading level, story length, and themes to avoid. Finally, I would store the judge scores across runs to compare how different prompting strategies improve story quality over time.
+If I had two more hours, I would add the following: 
+1. A multi-turn mode where the child or parent can request a sequel, shorter version, or different main character.
+2. Parent controls for reading level, story length, and themes to avoid.
+3. A simple score history view to compare judge scores across revision rounds.
+4. More story categories with tailored narrative arcs.
+5. Optional saving of final stories to text files.
 """
 
 MODEL_NAME = "gpt-3.5-turbo"
